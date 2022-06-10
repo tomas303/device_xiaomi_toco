@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 # Inherit some common Project Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Lawnchair launcher
+FORCE_LAWNCHAIR := true
+
 # Project Elixir Stuff
 IS_PHONE := true
 CUSTOM_BUILD_TYPE := OFFICIAL
