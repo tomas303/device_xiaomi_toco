@@ -1,0 +1,6 @@
+device/xiaomi/
+hardware/xiaomi/
+kernel/xiaomi/
+prebuilts/clang/host/linux-x86/clang-playground/
+vendor/MiuiCamera/
+vendor/xiaomi/
