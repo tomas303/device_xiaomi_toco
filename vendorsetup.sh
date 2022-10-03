@@ -15,8 +15,8 @@ rm -rf prebuilts/clang/host/linux-x86/clang-playground
 git clone --depth=1 https://gitlab.com/d.murimi14/playgroundtc.git -b 15 prebuilts/clang/host/linux-x86/clang-playground
 
 # Miui Camera
-rm -rf vendor/MiuiCamera
-git clone --depth=1 https://gitlab.com/d.murimi14/vendor-anxcamera.git -b tiramisu vendor/MiuiCamera
+rm -rf vendor/xiaomi/miuicamera
+git clone --depth=1 https://github.com/AndroidHQ254/android_vendor_xiaomi_miuicamera.git -b 13 vendor/xiaomi/miuicamera
 
 # Vendor Tree
 rm -rf vendor/xiaomi
