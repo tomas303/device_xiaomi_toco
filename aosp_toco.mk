@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 # Inherit some common Project Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/toco-miuicamera/products/miuicamera.mk)
+
 # Lawnchair launcher
 FORCE_LAWNCHAIR := true
 
