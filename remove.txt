@@ -2,5 +2,5 @@ device/xiaomi/
 hardware/xiaomi/
 kernel/xiaomi/
 prebuilts/clang/host/linux-x86/clang-playground/
-vendor/xiaomi/miuicamera/
+vendor/xiaomi/toco-miuicamera
 vendor/xiaomi/
