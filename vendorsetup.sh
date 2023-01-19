@@ -4,6 +4,7 @@ rm -rf hardware/xiaomi
 rm -rf kernel/xiaomi
 rm -rf prebuilts/clang/host/linux-x86/clang-playground
 rm -rf vendor/codeaurora/telephony
+rm -rf hardware/lineage/compat
 
 git clone --depth=1 https://github.com/ProjectElixir-Devices/device_xiaomi_sm6150-common-toco.git -b tiramisu device/xiaomi/sm6150-common
 git clone --depth=1 https://github.com/AndroidHQ254/android_hardware_xiaomi.git -b 13 hardware/xiaomi
@@ -13,3 +14,4 @@ git clone --depth=1 https://github.com/AndroidHQ254/vendor_xiaomi.git -b tiramis
 git clone --depth=1 https://github.com/ProjectElixir-Devices/vendor_xiaomi_google.git vendor/xiaomi/google
 git clone --depth=1 https://gitlab.com/AndroidHQ254/vendor-xiaomi-toco-miuicamera.git -b los vendor/xiaomi/toco-miuicamera
 git clone --depth=1 https://github.com/LineageOS/android_vendor_codeaurora_telephony.git -b lineage-20.0 vendor/codeaurora/telephony
+git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git hardware/lineage/compat

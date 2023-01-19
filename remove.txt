@@ -5,3 +5,4 @@ prebuilts/clang/host/linux-x86/clang-playground/
 vendor/xiaomi/toco-miuicamera
 vendor/xiaomi/
 vendor/codeaurora/telephony
+hardware/lineage/compat
