@@ -12,6 +12,6 @@ git clone --depth=1 https://github.com/AndroidHQ254/android_kernel_xiaomi_sm6150
 git clone --depth=1 https://gitlab.com/PixelOS-Devices/playgroundtc.git -b 16 prebuilts/clang/host/linux-x86/clang-playground
 git clone --depth=1 https://github.com/AndroidHQ254/vendor_xiaomi.git -b tiramisu vendor/xiaomi
 git clone --depth=1 https://github.com/ProjectElixir-Devices/vendor_xiaomi_google.git vendor/xiaomi/google
-git clone --depth=1 https://gitlab.com/AndroidHQ254/vendor-xiaomi-toco-miuicamera.git -b los vendor/xiaomi/toco-miuicamera
+git clone --depth=1 https://gitlab.com/AndroidHQ254/vendor-xiaomi-toco-miuicamera.git -b leica vendor/xiaomi/toco-miuicamera
 git clone --depth=1 https://github.com/LineageOS/android_vendor_codeaurora_telephony.git -b lineage-20.0 vendor/codeaurora/telephony
 git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git hardware/lineage/compat
