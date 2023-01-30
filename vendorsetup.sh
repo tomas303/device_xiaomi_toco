@@ -15,20 +15,3 @@ git clone --depth=1 https://github.com/ProjectElixir-Devices/vendor_xiaomi_googl
 git clone --depth=1 https://gitlab.com/AndroidHQ254/vendor-xiaomi-toco-miuicamera.git -b leica vendor/xiaomi/toco-miuicamera
 git clone --depth=1 https://github.com/LineageOS/android_vendor_codeaurora_telephony.git -b lineage-20.0 vendor/codeaurora/telephony
 git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git hardware/lineage/compat
-
-cd frameworks/av
-wget https://github.com/AndroidHQ254/miuicamerapatches/raw/main/frameworks_av/0001-Camera-Skip-stream-size-check-for-whitelisted-apps.patch
-wget https://github.com/AndroidHQ254/miuicamerapatches/raw/main/frameworks_av/0002-Camera-Avoid-roundBufferDimensionsNearest-also-for-H.patch
-git apply *.patch
-
-cd ../..
-
-cd frameworks/base
-wget https://github.com/AndroidHQ254/miuicamerapatches/raw/main/frameworks_base/0001-Revert-Camera-Ignore-torch-status-update-for-aux-or-.patch
-wget https://github.com/AndroidHQ254/miuicamerapatches/raw/main/frameworks_base/0002-Revert-CameraManager-Fixup-exposing-aux-camera-to-ap.patch
-wget https://github.com/AndroidHQ254/miuicamerapatches/raw/main/frameworks_base/0003-Revert-Camera-Replace-packageblacklist-with-packagee.patch
-wget https://github.com/AndroidHQ254/miuicamerapatches/raw/main/frameworks_base/0004-Revert-camera-Support-exposing-aux-camera-to-apps.patch
-wget https://github.com/AndroidHQ254/miuicamerapatches/raw/main/frameworks_base/0005-camera-Add-backwards-compatible-CaptureResultExtras-.patch
-git apply *.patch
-
-cd ../..
