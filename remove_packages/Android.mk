@@ -5,41 +5,14 @@ LOCAL_MODULE := RemovePkgs
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
-    arcore \
-    Camera2 \
-    ConnMO \
-    ConnMetrics \
-    DCMO \
+    AdaptiveVPNPrebuilt \
     DevicePolicyPrebuilt \
-    DMService \
-    Drive \
-    GCS \
+    Gallery2 \
     GoogleCamera \
     Maps \
-    Music \
-    MyVerizonServices \
-    OBDM_Permissions \
-    obdm_stub \
-    OdadPrebuilt \
-    OemDmTrigger \
-    OPScreenRecord \
-    Ornament \
-    PlayAutoInstallConfig \
+    PrebuiltGmail \
     RecorderPrebuilt \
-    SCONE \
-    ScribePrebuilt \
-    Showcase \
-    Snap \
-    Snap2 \
-    SnapdragonCamera \
-    SoundAmplifierPrebuilt \
-    SprintDM \
-    SprintHM \
-    Tycho \
-    USCCDM \
-    Videos \
-    YouTube \
-    YouTubeMusicPrebuilt
+    ScribePrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
