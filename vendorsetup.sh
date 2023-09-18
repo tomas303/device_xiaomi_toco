@@ -12,5 +12,5 @@ git clone --depth=1 https://github.com/vantoman/kernel_xiaomi_sm6150.git -b 13 k
 git clone --depth=1 https://gitlab.com/PixelOS-Devices/playgroundtc.git -b 17 prebuilts/clang/host/linux-x86/clang-playground
 git clone --depth=1 https://github.com/AndroidHQ254/vendor_xiaomi.git -b tiramisu vendor/xiaomi
 git clone --depth=1 https://gitlab.com/AndroidHQ254/vendor-xiaomi-toco-miuicamera.git -b leica vendor/xiaomi/toco-miuicamera
-git clone --depth=1 https://github.com/LineageOS/android_vendor_codeaurora_telephony.git -b lineage-20.0 vendor/codeaurora/telephony
+git clone --depth=1 https://github.com/AndroidHQ254/android_vendor_codeaurora_telephony.git -b lineage-20.0 vendor/codeaurora/telephony
 git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git hardware/lineage/compat
