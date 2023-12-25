@@ -12,10 +12,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/toco/device.mk)
 
 # Inherit some common Project Elixir stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+#$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/toco-miuicamera/products/miuicamera.mk)
+
+
+
 
 # Lawnchair launcher
 FORCE_LAWNCHAIR := true
@@ -34,8 +40,25 @@ TARGET_SUPPORTS_QUICK_TAP := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
+
+
+
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_toco
+#PRODUCT_NAME := aosp_toco
+#PRODUCT_DEVICE := toco
+#PRODUCT_BRAND := Xiaomi
+#PRODUCT_MODEL := Mi Note 10 Lite
+#PRODUCT_MANUFACTURER := Xiaomi
+#
+#PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+#
+#PRODUCT_BUILD_PROP_OVERRIDES += \
+#    PRIVATE_BUILD_DESC="toco-user 12 RKQ1.210614.002 V13.0.4.0.SFNMIXM release-keys"
+#
+#BUILD_FINGERPRINT := Xiaomi/toco_global/toco:12/RKQ1.210614.002/V13.0.4.0.SFNMIXM:user/release-keys
+
+PRODUCT_NAME := lineage_toco
 PRODUCT_DEVICE := toco
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi Note 10 Lite
@@ -47,3 +70,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="toco-user 12 RKQ1.210614.002 V13.0.4.0.SFNMIXM release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/toco_global/toco:12/RKQ1.210614.002/V13.0.4.0.SFNMIXM:user/release-keys
+
+
+
+
+
+

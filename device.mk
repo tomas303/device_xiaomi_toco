@@ -145,6 +145,9 @@ PRODUCT_PACKAGES += \
     SystemUIToco \
     WifiToco
 
+# toho from original lineage compile
+# PRODUCT_BUILD_SUPER_PARTITION := false
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
@@ -197,3 +200,6 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/toco/toco-vendor.mk)
+
+# MindTheGapps
+include vendor/gapps/arm64/arm64-vendor.mk
