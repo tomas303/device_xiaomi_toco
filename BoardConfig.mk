@@ -12,18 +12,6 @@ BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
-# those parameters get setup in BoardConfigCommon.mk, but compilation fails on
-# some strange errors(some obj files empty and others reference some symbols there)
-# when I commented them out compilation was fine, but to avoid cloning sm6150-common
-# repo just empty them here ... so default values will be used
-TARGET_KERNEL_CLANG_COMPILE :=
-TARGET_KERNEL_CLANG_VERSION :=
-TARGET_CLANG_PREBUILTS_VERSION :=
-TARGET_KERNEL_CLANG_PATH :=
-TARGET_KERNEL_ADDITIONAL_FLAGS :=
-
-
-
 DEVICE_PATH := device/xiaomi/toco
 
 BUILD_BROKEN_DUP_RULES := true
